@@ -185,7 +185,7 @@ The following describe the necessary steps to configure and run offline BLOM-iHA
 
 5. Modify dependent files
 
-     In the case directory, turn of daily output of files by adding the following to ``user_nl_cice`` ::                
+     In the case directory, turn off daily output of files by adding the following to ``user_nl_cice`` ::                
 
          histfreq = 'm','x','x','x','x'         
 
