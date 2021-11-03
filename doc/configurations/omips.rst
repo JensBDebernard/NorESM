@@ -185,33 +185,9 @@ The following describe the necessary steps to configure and run offline BLOM-iHA
 
 5. Modify dependent files
 
-     In the case directory, add the following to ``user_nl_cice`` ::                
+     In the case directory, turn of daily output of files by adding the following to ``user_nl_cice`` ::                
 
-         histfreq = 'm','d','x','x','x'
-         histfreq_n = 1,1,1,1,1
-         f_CMIP = 'mdxxx'
-         f_hi ="mxxxx"
-         f_hs="mxxxx"
-         f_fswdn="mxxxx"
-         f_fswabs="mxxxx"
-         f_congel="mxxxx"
-         f_frazil="mxxxx"
-         f_meltt="mxxxx"
-         f_melts="mxxxx"
-         f_meltb="mxxxx"
-         f_meltl="mxxxx"
-         f_fswthru="mxxxx"
-         f_dvidtt="mxxxx"
-         f_dvidtd="mxxxx"
-         f_daidtt="mxxxx"
-         f_daidtd="mxxxx"
-         f_apond_ai="mxxxx"
-         f_hpond_ai="mxxxx"
-         f_apeff_ai="mxxxx"
-         f_snowfrac="mxxxx"
-         f_aicen="mxxxx"
-         f_snowfracn="mxxxx"
-         
+         histfreq = 'm','x','x','x','x'         
 
      Add the following to ``user_nl_blom`` ::
 
